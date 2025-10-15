@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/22924827/README.1.md)
 # EdgeDAS: A Python-Based Edge Framework for Continuous Active Seismic DAS Monitoring
 
 This repository contains the source code for **EdgeDAS**, an automated, onsite processing framework for Distributed Acoustic Sensing (DAS) data.
@@ -133,22 +132,21 @@ All processed results and logs are stored in `_Processed_Data` and `_log`:
 
 ---
 
-# How to Cite
-
-If you use this code in your research, please cite:
+## How to Cite
+please cite:
 
 > *[paper's citation information here once published]*
 
 ---
 
-# License
+## License
 
 © 2025 EdgeDAS Project. Licensed under the MIT License.
 See the [LICENSE](LICENSE) file for details.
 
 ---
 
-# Author
+## Author
 
 **Ahmad Bahaa**  
 Project Researcher, University of Tokyo  
