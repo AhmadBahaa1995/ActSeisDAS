@@ -27,7 +27,7 @@ The framework provides a comprehensive solution for the automated processing of 
 - **Performance Monitoring:** Logs detailed performance metrics (duration, CPU usage, memory consumption) for each processing stage into a structured `performance_log.csv` file.
 - **Daily Scheduling:** Can be scheduled to run automatically at a specific time each day.
 - **Persistent Settings:** Remembers the last used configuration by saving and loading settings from a file.
-
+- **utilizes.py (optional):** A supplementary module containing utility functions that can be integrated into the main workflow if needed. These utilities are not required for the basic operation of the EdgeDAS framework but can assist with additional data handling, diagnostics, or visualization tasks.
 ---
 
 ## Repository Structure
@@ -51,8 +51,7 @@ EdgeDAS/
     ├── Seismogram_Plots/           # Final seismogram plots
     └── Source_Signals/             # Extracted source signals (if using extract mode)
 ```
-- **utilizes.py (optional):
-  **A supplementary module containing utility functions that can be integrated into the main workflow if needed. These utilities are not required for the basic operation of the EdgeDAS framework but can assist with additional data handling, diagnostics, or visualization tasks.
+
 ---
 
 ## Installation
