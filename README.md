@@ -133,7 +133,7 @@ All processed results and logs are stored in `_Processed_Data` and `_log`:
 
 ---
 
-## 🧾 How to Cite
+# How to Cite
 
 If you use this code in your research, please cite:
 
@@ -141,14 +141,14 @@ If you use this code in your research, please cite:
 
 ---
 
-## 🪪 License
+# License
 
 © 2025 EdgeDAS Project. Licensed under the MIT License.
 See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+# Author
 
 **Ahmad Bahaa**  
 Project Researcher, University of Tokyo  
