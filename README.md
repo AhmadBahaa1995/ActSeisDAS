@@ -127,7 +127,7 @@ All processed data, plots, and logs are saved in the `_log/` directory.
 
 If you use this code in your research, please cite:
 
-> *[Insert your paper's citation information here once published]*
+> *[paper's citation information here once published]*
 
 ---
 
@@ -142,8 +142,8 @@ See the [LICENSE](LICENSE) file for details.
 
 **Ahmad Bahaa**  
 Project Researcher, University of Tokyo  
-📧 [Add your email or ORCID link here if you want]  
-🌐 [https://github.com/your-username](https://github.com/your-username)
+📧 [ahmadbahaa@g.ecc.u-tokyo.ac.jp  ORCID:0000-0002-5374-9379]  
+🌐 [https://github.com/AhmadBahaa1995]((https://github.com/AhmadBahaa1995))
 
 ---
 
