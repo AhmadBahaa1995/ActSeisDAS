@@ -1,0 +1,8 @@
+numpy
+obspy
+matplotlib
+scipy
+tkinter
+pandas
+multiprocessing-logging
+schedule
