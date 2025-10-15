@@ -37,6 +37,7 @@ EdgeDAS/
 ├── Edgedas_framework.py        # Main Python application script
 ├── requirements.txt            # Required Python packages
 ├── README.md                   # This documentation file
+├── utilizes.py                 # Optional utility functions (for custom extensions)
 ├── LICENSE                     # Project license
 ├── _log/
 │   ├── source_pass.mseed       # (Optional) Pre-prepared source signal
@@ -50,7 +51,8 @@ EdgeDAS/
     ├── Seismogram_Plots/           # Final seismogram plots
     └── Source_Signals/             # Extracted source signals (if using extract mode)
 ```
-
+utilizes.py (optional):
+A supplementary module containing utility functions that can be integrated into the main workflow if needed. These utilities are not required for the basic operation of the EdgeDAS framework but can assist with additional data handling, diagnostics, or visualization tasks.
 ---
 
 ## Installation
