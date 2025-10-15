@@ -446,18 +446,7 @@ def distanceOffset (trc1,trc2):
   dist = mpu.haversine_distance((lat1, lon1), (lat2, lon2))*1000
   dist = int(dist)
   return dist
-#-----------------------------------------------------------------------------------------------------------------------------#
-# this for calcute the distance between trances
-def distanceOffsetwell (trc2):
-  lat1=38.020816
-  lat2=trc2.stats.sac['stla']
 
-  lon1=139.312382
-  lon2=trc2.stats.sac['stlo']
-
-  dist = mpu.haversine_distance((lat1, lon1), (lat2, lon2))*1000
-  dist = int(dist)
-  return dist
 #-----------------------------------------------------------------------------------------------------------------------------#
 # this for nomrlize based on speed
 def NormSpeed(data,o,stationDistnace,velocty,j,windowNoR):
@@ -629,4 +618,5 @@ def apply_agc(stream, window_length=0.5):
         trace.data = data_agc
     
     return stream
+
 
