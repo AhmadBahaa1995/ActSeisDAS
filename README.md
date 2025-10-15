@@ -38,7 +38,7 @@ The core workflow involves **cross-correlating continuous data** against a refer
 EdgeDAS/
 ├── edgedas_framework.py        # Main Python application script
 ├── requirements.txt            # Required Python packages
-├── .gitignore                  # Git ignore file
+├── utilizes.py                 # contains more useful functions
 ├── README.md                   # This documentation file
 ├── LICENSE                     # Project license
 └── _log/
