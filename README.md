@@ -36,7 +36,6 @@ The framework provides a comprehensive solution for the automated processing of 
 EdgeDAS/
 ├── Edgedas_framework.py        # Main Python application script
 ├── requirements.txt            # Required Python packages
-├── .gitignore                  # Git ignore file
 ├── README.md                   # This documentation file
 ├── LICENSE                     # Project license
 ├── _log/
@@ -45,11 +44,11 @@ EdgeDAS/
 │   ├── processing_log.txt      # Main application log file
 │   └── processing_settings.txt # Saved GUI settings
 └── _Processed_Data/
-    ├── performance_log.csv     # Performance metrics log
-    ├── Cross_Correlation_folder/ # Hourly cross-correlation files
-    ├── Stacked_Cross_Correlation/ # Final stacked data files
-    ├── Seismogram_Plots/       # Final seismogram plots
-    └── Source_Signals/         # Extracted source signals (if using extract mode)
+    ├── performance_log.csv         # Performance metrics log
+    ├── Cross_Correlation_folder/   # Hourly cross-correlation files
+    ├── Stacked_Cross_Correlation/  # Final stacked data files
+    ├── Seismogram_Plots/           # Final seismogram plots
+    └── Source_Signals/             # Extracted source signals (if using extract mode)
 ```
 
 ---
