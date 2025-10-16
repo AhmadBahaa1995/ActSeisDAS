@@ -1,8 +1,8 @@
-# EdgeDAS: A Python-Based Edge Framework for Continuous Active Seismic DAS Monitoring
+# ActSeisDAS: A Python-Based Edge Framework for Continuous Active Seismic DAS Monitoring
 
-This repository contains the source code for **EdgeDAS**, an automated, onsite processing framework for Distributed Acoustic Sensing (DAS) data.
+This repository contains the source code for **ActSeisDAS**, an automated, onsite processing framework for Distributed Acoustic Sensing (DAS) data.
 
-EdgeDAS is designed to run on an edge computing device located onsite, enabling near-real-time analysis of seismic data. It provides a robust, configurable, and automated workflow for processing continuous active-source DAS recordings.
+ActSeisDAS is designed to run on an edge computing device located onsite, enabling near-real-time analysis of seismic data. It provides a robust, configurable, and automated workflow for processing continuous active-source DAS recordings.
 
 ---
 
@@ -27,14 +27,14 @@ The framework provides a comprehensive solution for the automated processing of 
 - **Performance Monitoring:** Logs detailed performance metrics (duration, CPU usage, memory consumption) for each processing stage into a structured `performance_log.csv` file.
 - **Daily Scheduling:** Can be scheduled to run automatically at a specific time each day.
 - **Persistent Settings:** Remembers the last used configuration by saving and loading settings from a file.
-- **utilizes.py (optional):** A supplementary module containing utility functions that can be integrated into the main workflow if needed. These utilities are not required for the basic operation of the EdgeDAS framework but can assist with additional data handling, diagnostics, or visualization tasks.
+- **utilizes.py (optional):** A supplementary module containing utility functions that can be integrated into the main workflow if needed. These utilities are not required for the basic operation of the ActSeisDAS framework but can assist with additional data handling, diagnostics, or visualization tasks.
 ---
 
 ## Repository Structure
 
 ```
-EdgeDAS/
-├── Edgedas_framework.py        # Main Python application script
+ActSeisDAS/
+├── ActSeisDAS_framework.py        # Main Python application script
 ├── requirements.txt            # Required Python packages
 ├── README.md                   # This documentation file
 ├── utilizes.py                 # Optional utility functions (for custom extensions)
@@ -58,8 +58,8 @@ EdgeDAS/
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/EdgeDAS.git
-cd EdgeDAS
+git clone https://github.com/your-username/ActSeisDAS.git
+cd ActSeisDAS
 ```
 
 ### Create a virtual environment (recommended):
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 ### Run the Application:
 ```bash
-python Edgedas_framework.py
+python ActSeisDAS_framework.py
 ```
 
 ### Configure Parameters via the GUI:
@@ -141,7 +141,7 @@ please cite:
 
 ## License
 
-© 2025 EdgeDAS Project. Licensed under the MIT License.
+© 2025 ActSeisDAS Project. Licensed under the MIT License.
 See the [LICENSE](LICENSE) file for details.
 
 ---
@@ -155,4 +155,4 @@ Project Researcher, University of Tokyo
 
 ---
 
-*EdgeDAS – Bridging edge computing and continuous seismic monitoring for next-generation DAS analysis.*
+*ActSeisDAS – Bridging edge computing and continuous seismic monitoring for next-generation DAS analysis.*
