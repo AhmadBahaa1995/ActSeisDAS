@@ -34,7 +34,7 @@ The framework provides a comprehensive solution for the automated processing of 
 
 ```
 ActSeisDAS/
-├── ActSeisDAS_framework.py        # Main Python application script
+├── ActSeisDAS_framework.py     # Main Python application script
 ├── requirements.txt            # Required Python packages
 ├── README.md                   # This documentation file
 ├── utilizes.py                 # Optional utility functions (for custom extensions)
