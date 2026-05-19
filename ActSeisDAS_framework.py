@@ -69,6 +69,12 @@ from tqdm import tqdm
 from datetime import datetime
 from functools import partial
 
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
+os.environ["NUMEXPR_NUM_THREADS"] = "1"
+
 # --- Global Setup ---
 # Get the directory where the script is located
 try:
