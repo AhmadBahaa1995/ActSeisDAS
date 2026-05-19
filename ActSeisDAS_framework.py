@@ -1,5 +1,5 @@
 """
-EdgeDAS: An Automated Onsite Processing Framework for Distributed Acoustic Sensing (DAS) Data
+ActSeisDAS: An Automated Onsite Processing Framework for Distributed Acoustic Sensing (DAS) Data
 
 This script provides a comprehensive framework for the automated processing of Distributed
 Acoustic Sensing (DAS) data. It is designed to run on an edge computing device located
@@ -653,7 +653,7 @@ if __name__ == "__main__":
 
     # --- Build the GUI Window ---
     window = tk.Tk()
-    window.title("EdgeDAS: Onsite Processing Framework")
+    window.title("ActSeisDAS: Onsite Processing Framework")
 
     # --- Configuration Frame ---
     config_frame = tk.LabelFrame(window, text="Processing Configuration", padx=10, pady=10)
